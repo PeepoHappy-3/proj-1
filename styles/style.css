@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.body {
+    margin: 0;
+}
+
+.page {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.button {
+    background: #FFBB01;
+    border: none;
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 5px 5px 10px 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    width: 143px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1B2944;
+    padding: 31px 0 71px 0;
+    margin: 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top__link {
+    width: 100px;
+    height: 28px;
+    background-image: url('../images/discord.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header__content {
+    margin: 117px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__subtitle {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFBB01;
+    margin: 0 0 14px;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    margin: 0 0 20px;
+}
+
+.header__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 38px;
+}
+
+.header__button {
+    width: 300px;
+    height: 65.17px;
+    margin: 0 0 40px;
+}
+
+.header__info {
+    flex-basis: 444px;
+}
+
+.header__portrait {
+    border: 11px solid #ffffff;
+    border-radius: 50%;
+    width: 362px;
+    height: 362px;
+    background-image: url('../images/avatar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.features {
+    background-color: #141F35;
+    padding: 64px 0 29px 0;
+}
+
+.features__title {
+    margin: 0 0 80px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.features__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 302px;
+    margin: 0 0 63px 0;
+}
+
+.features__heading {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.features__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.features__icon {
+    align-self: flex-start;
+}
+
+.contacts {
+    background-color: #1B2944;
+    padding: 52px 0;
+}
+
+.contacts-block__row {
+    display: flex;
+}
+
+.contacts-block__column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.contacts-block__title {
+    margin: 0 0 80px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.contacts-block__subtitle {
+    margin: 0 0 30px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.contacts-block__form {
+    background: #FFFFFF;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 46px 39px 56px;
+    align-items: center;
+}
+
+.contacts-block__form-inner {
+    max-width: 380px;
+}
+
+.contacts-block__input {
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    border: none;
+    width: 380px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 24px;
+    padding-left: 52px;
+    box-sizing: border-box;
+}
+
+.contacts-block__button {
+    width: 380px;
+    height: 73px;
+}
+
+.name {
+    margin-bottom: 20px;
+    background-image: url('../images/user-icon.svg');
+}
+
+.numer {
+    margin-bottom: 28px;
+    background-image: url('../images/phone-icon.svg');
+}
+
+.contacts-block__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+    padding-left: 96px;
+}
+
+.contacts-block__heading {
+    margin: 0 0 17px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.contacts-block__text {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.contacts-block__contacts-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+}
+
+.contacts-block__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.social-block__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contacts-block__info-top {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.contacts-block__container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 55%;
+    justify-content: space-between;
+}
+
+.contacts-block__conf {
+    justify-self: end;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #949494;
+}
